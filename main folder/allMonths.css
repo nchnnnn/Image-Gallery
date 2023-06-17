@@ -185,7 +185,8 @@ img {
   }
 
   section div {
-   width: 7rem;
-   height: 7rem;
+   width: 6.4rem;
+   height: 6rem;
+   margin: 1px;
   }
 }
