@@ -154,7 +154,7 @@ img {
   }
 }
 
-@media screen and (width <= 520px) {
+@media screen and (width <= 550px) {
   body::-webkit-scrollbar {
     display: none;
   }
@@ -180,9 +180,6 @@ img {
     width: 100%;
   }  
   
-  .months {
-
-  }
 
   section div {
    width: 6.7rem;
