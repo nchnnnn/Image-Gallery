@@ -39,19 +39,24 @@ ul {
     align-items: center;
 }
 
+header:hover li {
+    opacity: 0.3;
+    transform: scale(.9);
+    transition: all ease 300ms;
+}
+
 header ul li {
     padding: 0.7rem;
     font-size: 1.2rem;
     color: white;
     list-style: none;
     position: relative;
-    opacity: 0.3;
     transition: all ease 300ms;
 }
 
 header ul li:hover {
     opacity: 1;
-    transform: scale(1.1);
+    transform: scale(1);
 }
 
 a {

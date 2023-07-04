@@ -67,7 +67,8 @@ nav ul a {
   transition: ease-out 300ms;
 }
 
-nav ul a:is(:hover, :focus) {
+nav ul a:hover,
+nav ul a:focus {
   opacity: 0.2;
 
 }

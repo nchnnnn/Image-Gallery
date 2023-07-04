@@ -1,3 +1,7 @@
+html {
+  
+}
+
 body::-webkit-scrollbar {
   display: none;
 }
@@ -9,9 +13,14 @@ main {
 }
 .months {
   display: flex;
+  scroll-snap-type: x mandatory;
   overflow-x: auto;
   padding: 1rem 0;
   
+}
+
+.months > a {
+  scroll-snap-align: start;
 }
 
 #except {
@@ -25,6 +34,7 @@ main {
 }
 .months .item {
   min-width: 14.3rem;
+  
   position: relative;
   height: 10rem;
   display: flex;
@@ -35,6 +45,10 @@ main {
   margin: 0 0.5rem;
   border-radius: 3%;
   overflow: hidden;
+}
+
+.months a{
+  
 }
 
 
