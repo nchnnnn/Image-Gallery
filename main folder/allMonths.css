@@ -138,6 +138,32 @@ img {
   object-fit: cover;
 }
 
+.upcoming {
+  display: flex;
+  flex-direction: column;
+  background-color: #202124;
+  width: 70%;
+  border-radius: .5rem;
+  text-align: center;
+  padding: 1rem;
+
+}
+
+.upcoming h1 {
+  font-size:4.5rem;
+  font-family:cursive;
+}
+
+.smalltxt {
+  color: white;
+  opacity: 0.5;
+  font-size: small;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#updating {
+  height: 100vh;
+}
 
 .fade-in-left {
   animation: fade-in-left 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
@@ -186,5 +212,17 @@ img {
    width: 6.7rem;
    height: 6.7rem;
    margin: 1px;
+  }
+
+  #updating {
+    height: 70vh;
+  }
+
+
+  .upcoming h1 {
+    font-size: 2rem;
+  }
+  .smalltxt {
+    font-size: xx-small;
   }
 }

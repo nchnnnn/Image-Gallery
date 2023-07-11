@@ -31,6 +31,26 @@ header {
     
 }
 
+.title {
+    display: flex;
+    margin: 1rem 0 ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title h1 {
+    font-family: cursive;
+    color: white;
+    
+}
+
+.title span {
+    width: 60%;
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 ul {
     width: 100%;
