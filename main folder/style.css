@@ -40,7 +40,8 @@ header {
 }
 
 .title h1 {
-    font-family: cursive;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
     color: white;
     
 }
@@ -84,3 +85,12 @@ a {
 }
 
 
+@media screen and (width <= 550px) {
+    .title h1 {
+        font-size: large;
+    }
+    .title span {
+        width: 90%;
+        font-size: x-small;
+    }
+}
