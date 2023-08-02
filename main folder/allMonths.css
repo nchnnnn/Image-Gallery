@@ -20,7 +20,7 @@ nav {
   position: sticky;
   top: 0;
   z-index: 1;
-  
+  background-color: pink;
 }
 
 nav ul {
@@ -69,8 +69,12 @@ nav ul a {
 
 nav ul a:hover,
 nav ul a:focus {
-  opacity: 0.2;
+  opacity: 1;
 
+}
+
+nav:hover a {
+  opacity: .2;
 }
 
 
@@ -153,14 +157,6 @@ img {
   font-size:4.5rem;
   font-family:cursive;
 }
-
-.smalltxt {
-  color: white;
-  opacity: 0.5;
-  font-size: small;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
 #updating {
   height: 100vh;
 }
@@ -222,7 +218,5 @@ img {
   .upcoming h1 {
     font-size: 2rem;
   }
-  .smalltxt {
-    font-size: xx-small;
-  }
+
 }
